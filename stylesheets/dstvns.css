@@ -1,0 +1,45 @@
+.clearfix {*zoom:1;}
+.clearfix:after {clear:both; content:""; display:table;}
+
+html, body {height:100%;}
+body {margin:10px 20px; font-family:'Droid Serif', sans-serif; font-size:1em; color:#222;}
+a.site-icon {background:#800000; color:#fff; padding:4px 7px 2px 7px; position:absolute; top:0; left:100px; font-size:32px;}
+a.site-icon i {vertical-align:middle;}
+ul.site-nav {list-style-type:none; position:absolute; top:10px; right:150px;}
+ul.site-nav li {display:inline-block; font-size:16px; text-align:center; margin-right:20px;}
+ul.site-nav li i {font-size:24px; vertical-align:middle;}
+hgroup {width:300px; position:fixed; height:100%; border-right:1px solid #dfdfdf;}
+h1 {font-size:7.2em;}
+h2 {font-size:1.8em; padding:20px 20px 0 5px;}
+h3 {font-size:2.2em; margin-top:40px; margin-left:0;}
+div.wrap {margin-left:70px; padding-top:120px;}
+a {color:#000c48; text-decoration:none;}
+span.colorbar {height:10px; display:block; padding:2px 0 0 2px;
+  background:#000c48; margin-left:5px; margin-right:10px;}
+span.colorbar i {height:6px; display:block; width:271px; background:#b50102;}
+span.colorbar i:nth-of-type(1) {height:2px; background:#fefefe;}
+h1 a {color:#222;}
+h4 {margin:40px 0 0 30px;}
+h4 a {font-size:32px; margin-right:25px; color:#404040;}
+h4 a:hover {color:#000;}
+h2.hp-heading {font-size:2.4em; margin:0 40px 20px 40px;}
+ul.posts {margin:25px 75px; font-size:2.4em; list-style-type:none;}
+ul.posts li {margin-bottom:8px;}
+div.post {margin:0 75px; padding-bottom:80px;}
+div.post a {color:#B50102;}
+div.post h1 {font-size:3.6em;}
+div.post h2 {padding:5px 0 20px 0; color:#404040; margin-top:30px;}
+div.post h2:nth-of-type(1) {margin-top:0;}
+div.post p:nth-of-type(1) {font-size:2.2em; margin-bottom:40px; padding-left:20px; margin-top:20px;}
+div.post p {font-size:2em; margin-bottom:20px; line-height:1.5em;}
+hr {margin:40px 0;}
+div.post h3 {margin:10px 0; font-size:2em; border-top:1px solid #eee; padding-top:20px;}
+div.post h3:nth-of-type(1) {border-top:0; margin:-10px 0 20px 0; font-size:1.6em;}
+div.post ul,
+div.post ol {font-size:1.8em; margin-left:25px;}
+div.post ul li,
+div.post ol li {margin:10px 0;}
+div.post pre {margin:20px 0; font-size:1.2em;}
+div.post code {font-size:1.6em; word-wrap:break-word; line-height:1.5em;}
+div.post p code {font-size:1em; background:#eee; padding:3px 5px; border-radius:3px;}
+footer.global {font-size:1.6em; color:#555; padding:40px; border-top:1px solid #eee;}
