@@ -9,9 +9,29 @@ blog: true
     <article class="tile is-child">
       <p class="title">{{page.title}}</p>
       <p class="subtitle">{{page.category}}</p>
+      <span class="tag is-light is-medium">{{page.date | date_to_long_string }}</span>
       <div class="content">
       {{ content }}
       </div>
+      {% if page.medium_url %}
+      <div class="box" style="margin-top:80px;">
+        <article class="media">
+          <div class="media-left">
+            <span class="icon is-large">
+              <i class="fa fa-medium"></i>
+            </span>
+          </div>
+          <div class="media-content">
+              <p>
+                This was cross-posted to my Medium account. You can <a href="{{ page.medium_url }}">view it on Medium</a> if you prefer.
+              </p>
+              <p>
+                You can also <a href="https://medium.com/{{ site.medium }}" target="_blank">follow me on Medium</a> if you feel so inclined.
+              </p>
+            </div>
+
+        </div>
+      {% endif %}
     </article>
   </div>
   <div class="tile is-parent">

@@ -3,6 +3,7 @@ layout: post-sss
 title: Spammers
 category: Bare Minimum Application Security
 tags: postlist
+medium_url: https://medium.com/@dstevensio/barebones-application-security-spammers-397af2b67ea4
 ---
 
 So far in [this series](/startup-or-bare-minimum-security) we've

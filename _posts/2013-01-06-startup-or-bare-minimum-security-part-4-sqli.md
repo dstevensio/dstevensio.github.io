@@ -3,6 +3,7 @@ layout: post-sss
 title: SQL Injection (SQLi)
 category: Bare Minimum Application Security
 tags: postlist
+medium_url: https://medium.com/@dstevensio/barebones-application-security-sql-injection-sqli-4becb8baf604
 ---
 
 We're roughly halfway through this series on basic security

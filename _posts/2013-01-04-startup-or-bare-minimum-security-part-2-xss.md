@@ -3,6 +3,7 @@ layout: post-sss
 title: Cross-Site Scripting (XSS)
 category: Bare Minimum Application Security
 tags: postlist
+medium_url: https://medium.com/@dstevensio/barebones-security-cross-site-scripting-xss-921f9187814c
 ---
 
 In [Part 1 of this series](/startup-or-bare-minimum-security) I began by

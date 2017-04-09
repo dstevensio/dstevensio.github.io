@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.meta_description }}">
+  <meta property="og:url" content="{{ site.base_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.page_title }}">
+  <meta property="og:image" content="{{ site.logo }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+  <meta property="og:description" content="{{ site.meta_description }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@{{ site.twitter }}">
+  <meta name="twitter:creator" content="@{{ site.twitter }}">
+  <meta name="twitter:title" content="{{ site.page_title }}">
+  <meta name="twitter:image" content="{{ site.logo }}">
+  <meta name="twitter:description" content="{{ site.meta_description }}">
   <title>
     {% if page.title == nil %}
-      Dave Stevens @dstevensio
+      {{ site.page_title }}
     {% else %}
-      {{ page.title }} - Dave Stevens @dstevensio
+      {{ page.title }} - {{ site.page_title }}
     {% endif %}
   </title>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
@@ -23,6 +42,7 @@
 
   a { color: #800000; }
 
+  footer p { line-height: 4em; }
   footer a { color: dimgray; }
   footer a span.icon { color: dimgray; margin:0 20px; }
 
@@ -35,40 +55,39 @@
   </div>
   <div class="nav-center">
     <a href="/" style="color:#363636;">
-      <span style="font-size:3.5rem; font-weight:bold;">D</span>
-      <span style="font-size:3.5rem; font-weight:bold;">S</span>
+      <span style="font-size:3.5rem; font-weight:bold;">DS</span>
       <span class="icon is-large" style="margin-top:19px;">
         <i class="fa fa-hand-lizard-o"></i>
       </span>
     </a>
   </div>
   <div class="nav-right is-hidden-mobile">
-    <a class="nav-item" href="https://twitter.com/dstevensio">
+    <a class="nav-item" href="https://twitter.com/{{ site.twitter }}">
       <span class="icon">
         <i class="fa fa-twitter"></i>
       </span>
     </a>
-    <a class="nav-item" href="https://github.com/dstevensio">
+    <a class="nav-item" href="https://github.com/{{ site.github }}">
       <span class="icon">
         <i class="fa fa-github"></i>
       </span>
     </a>
-    <a class="nav-item" href="https://medium.com/@dstevensio">
+    <a class="nav-item" href="https://medium.com/{{ site.medium }}">
       <span class="icon">
         <i class="fa fa-medium"></i>
       </span>
     </a>
-    <a class="nav-item" href="http://linkedin.com/in/daveastevens">
+    <a class="nav-item" href="http://linkedin.com/in/{{ site.linkedin }}">
       <span class="icon">
         <i class="fa fa-linkedin"></i>
       </span>
     </a>
-    <a class="nav-item" href="https://instagram.com/shakefon">
+    <a class="nav-item" href="https://instagram.com/{{ site.instagram }}">
       <span class="icon">
         <i class="fa fa-instagram"></i>
       </span>
     </a>
-    <a class="nav-item" href="https://www.snapchat.com/add/shakefon">
+    <a class="nav-item" href="https://www.snapchat.com/add/{{ site.snapchat }}">
       <span class="icon">
         <i class="fa fa-snapchat-ghost"></i>
       </span>
@@ -83,54 +102,52 @@
   <div class="container">
     <div class="content has-text-centered">
       <p>
-        <a href="https://twitter.com/dstevensio">
+        <a href="https://twitter.com/{{ site.twitter }}">
           <span class="icon">
             <i class="fa fa-twitter"></i>
           </span>
         </a>
-        <a href="https://github.com/dstevensio">
+        <a href="https://github.com/{{ site.github }}">
           <span class="icon">
             <i class="fa fa-github"></i>
           </span>
         </a>
-        <a href="https://medium.com/@dstevensio">
+        <a href="https://medium.com/{{ site.medium }}">
           <span class="icon">
             <i class="fa fa-medium"></i>
           </span>
         </a>
-        <a href="http://linkedin.com/in/daveastevens">
+        <a href="http://linkedin.com/in/{{ site.linkedin }}">
           <span class="icon">
             <i class="fa fa-linkedin"></i>
           </span>
         </a>
-        <a href="https://instagram.com/shakefon">
+        <a href="https://instagram.com/{{ site.instagram }}">
           <span class="icon">
             <i class="fa fa-instagram"></i>
           </span>
         </a>
-        <a href="https://www.snapchat.com/add/shakefon">
+        <a href="https://www.snapchat.com/add/{{ site.snapchat }}">
           <span class="icon">
             <i class="fa fa-snapchat-ghost"></i>
           </span>
         </a>
       </p>
       <p>
-        <a href="mailto:ds@dstevensio">ds@dstevens.io</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </p>
     </div>
   </div>
 </footer>
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37398643-1']);
-  _gaq.push(['_setDomainName', 'dstvns.com']);
-  _gaq.push(['_trackPageview']);
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', '{{ site.google_analytics_id }}', 'auto');
+  ga('send', 'pageview');
+
 </script>
 </body>
 </html>

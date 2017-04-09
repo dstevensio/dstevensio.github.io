@@ -3,6 +3,7 @@ layout: post-sss
 title: Startup or Bare Minimum Security
 category: Bare Minimum Application Security
 tags: postlist
+medium_url: https://medium.com/@dstevensio/barebones-application-security-73a5198960c2
 ---
 I gave a presentation for some folks who were setting up side projects
 outside of work hours, some of them fully fledged startups, some even at the

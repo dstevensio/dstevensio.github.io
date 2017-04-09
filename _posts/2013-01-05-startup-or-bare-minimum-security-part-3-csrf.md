@@ -3,6 +3,7 @@ layout: post-sss
 title: Cross Site Request Forgery (CSRF)
 category: Bare Minimum Application Security
 tags: postlist
+medium_url: https://medium.com/@dstevensio/barebones-application-security-cross-site-request-forgery-csrf-b7b0d872e5fb
 ---
 
 In [Part 1 of this series](/startup-or-bare-minimum-security) I began by

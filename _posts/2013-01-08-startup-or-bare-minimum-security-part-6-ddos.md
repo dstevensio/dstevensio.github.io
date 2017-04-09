@@ -3,6 +3,7 @@ layout: post-sss
 title: Denial of Service (DDoS)
 category: Bare Minimum Application Security
 tags: postlist
+medium_url: https://medium.com/@dstevensio/barebones-application-security-denial-of-service-805a73b5bc70
 ---
 
 In this final look at real world threats, it's time to look

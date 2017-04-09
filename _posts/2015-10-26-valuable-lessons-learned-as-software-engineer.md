@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: post-advicetweet
 title: Valuable Lessons I've Learned as a Software Engineer
 category: Advice / Retrospective
+question_asker: Adri Van Houdt
+question: the most valuable lessons you have learned and wish you knew from the beginning?
+question_link: https://twitter.com/AdriVanHoudt_/status/658723715425914884
+medium_url: https://medium.com/@dstevensio/valuable-lessons-i-ve-learned-as-a-software-engineer-63344931ff9d
 ---
-
-<em>I [made a request on Twitter earlier today](https://twitter.com/dstevensio/status/658723282884128768), offering to answer questions from new or junior engineers coming in to the industry. My reasoning was that over the years I've had the good fortune to have had many great engineers and managers to learn from, and I want to be better at helping out those getting started with questions they have. Here's my response to one reply:</em>
-
-[Adri Van Houdt: the most valuable lessons you have learned and wish you knew from the beginning?](https://twitter.com/AdriVanHoudt_/status/658723715425914884)
 
 ## Share your code and invite review
 
@@ -74,7 +74,3 @@ Then learn some simple scripting (or some advanced scripting if you like it, don
 ## Whatever you think is important, what's actually important is getting things live and making them work really, really well.
 
 No one will care in 6 months that you built this with technology X, framework Y or with workflow method Z. Pick something by making an informed decision, then work to make your end product really, really resilient, performant, and for the love of all that is holy, make it solve the problem you set out to address.
-
----
-
-<em>If you have a question for me in this space, [reply to my original Tweet](https://twitter.com/dstevensio/status/658723282884128768). Thanks!</em>
