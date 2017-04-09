@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Brandon Dimcheff - Down The Rabbit Hole - Chasing bugs from the browser to the backend
+category: JSConf US 2013
 youtubeID: RCgD4SLwC18
 ---
 

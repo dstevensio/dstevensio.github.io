@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Olivier Crameri - Sure, you can use JavaScript to program Robots. But how about having a Robot debug your JavaScript instead?
+category: JSConf US 2013
 youtubeID: XRT20j-6kTo
 ---
 

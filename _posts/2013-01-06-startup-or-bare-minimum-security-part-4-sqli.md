@@ -1,6 +1,7 @@
 ---
 layout: post-sss
-title: Startup or Bare Minimum Security Part 4 - SQLi
+title: SQL Injection (SQLi)
+category: Bare Minimum Application Security
 tags: postlist
 ---
 

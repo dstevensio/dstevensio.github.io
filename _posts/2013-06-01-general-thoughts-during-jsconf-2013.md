@@ -1,6 +1,7 @@
 ---
 layout: post
 title: General thoughts during JSConf US 2013
+category: JSConf US 2013
 tags: postlist
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Peter Van Der Zee - Live Recompilation of Running JS
+category: JSConf US 2013
 youtubeID: 9HfWmdp9_I0
 ---
 

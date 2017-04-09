@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: John-David Dalton - Perf the web forward
+category: JSConf US 2013
 ---
 
 Talking about how to improve existing libraries and your own code with some performance gains techniques. John-David is the creator of [jsperf.com](http://jsperf.com)

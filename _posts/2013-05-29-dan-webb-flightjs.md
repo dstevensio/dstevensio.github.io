@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Dan Webb - flight.js
+category: JSConf US 2013
 ---
 
 aim: decouple components

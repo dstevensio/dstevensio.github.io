@@ -1,6 +1,7 @@
 ---
 layout: post-jsconf13
 title: JSConf US 2013 Talks (List)
+category: JSConf US 2013
 tags: postlist
 ---
 

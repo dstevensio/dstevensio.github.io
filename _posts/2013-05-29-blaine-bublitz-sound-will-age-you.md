@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Blaine Bublitz - Sound Will Age You
+category: JSConf US 2013
 ---
 
 "Sounds are important" - TV/games with sound off, not as good

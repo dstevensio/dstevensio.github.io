@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Luis Montes - Post Modern Game Input Devices
+category: JSConf US 2013
 youtubeID: bN71Voq5x1U
 ---
 

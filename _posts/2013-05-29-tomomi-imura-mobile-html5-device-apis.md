@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Tomomi Imura - Mobile HTML5 Device APIs and related APIs
+category: JSConf US 2013
 ---
 
 URI schemes (tel: sms:)

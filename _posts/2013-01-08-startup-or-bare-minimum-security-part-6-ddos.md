@@ -1,6 +1,7 @@
 ---
 layout: post-sss
-title: Startup or Bare Minimum Security Part 6 - DDoS
+title: Denial of Service (DDoS)
+category: Bare Minimum Application Security
 tags: postlist
 ---
 
@@ -73,7 +74,7 @@ you're seeing. Look at where they're coming from.
 
 ### Non-security benefits of protecting yourself from this threat
 
-(D)DoS mitigation is often considered an operational task versus 
+(D)DoS mitigation is often considered an operational task versus
 a security one, because essentially you're ensuring your app can
 handle massive amounts of traffic. Get these steps right, and once
 you've scaled to a billion users, you're going to be well equipped

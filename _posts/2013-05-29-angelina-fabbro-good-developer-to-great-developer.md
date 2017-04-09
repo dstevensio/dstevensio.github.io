@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Angelina Fabbro - JavaScript Masterclass - How do you go from being a good developer, to a great one?
+category: JSConf US 2013
 youtubeID: v0TFmdO4ZP0
 ---
 

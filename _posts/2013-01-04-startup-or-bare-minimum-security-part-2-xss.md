@@ -1,12 +1,13 @@
 ---
 layout: post-sss
-title: Startup Or Bare Minimum Security Part 2 - XSS
+title: Cross-Site Scripting (XSS)
+category: Bare Minimum Application Security
 tags: postlist
 ---
 
 In [Part 1 of this series](/startup-or-bare-minimum-security) I began by
-explaining the background to the series, my aims and goals in producing 
-this, and kicked things off with some core concepts. Here on out, we'll 
+explaining the background to the series, my aims and goals in producing
+this, and kicked things off with some core concepts. Here on out, we'll
 focus on specific threats for the next few posts.
 
 XSS - Cross-Site Scripting

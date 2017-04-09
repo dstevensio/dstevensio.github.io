@@ -3,34 +3,134 @@
 <head>
   <title>
     {% if page.title == nil %}
-      Dave Stevens [@dstevensio]
+      Dave Stevens @dstevensio
     {% else %}
-      {{ page.title }} / Dave Stevens [@dstevensio]
+      {{ page.title }} - Dave Stevens @dstevensio
     {% endif %}
   </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="/styles/dstvns2014.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  #wrapper {
+    flex: 1;
+  }
+
+  a { color: #800000; }
+
+  footer a { color: dimgray; }
+  footer a span.icon { color: dimgray; margin:0 20px; }
+
+  div.content { margin-top:40px; }
+  </style>
 </head>
 <body>
-  <div class="container">
-    {{ content }}
+<nav class="nav" style="border-bottom:1px solid dimgray">
+  <div class="nav-left nav-menu">
   </div>
-  <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-37398643-1']);
-    _gaq.push(['_setDomainName', 'dstvns.com']);
-    _gaq.push(['_trackPageview']);
+  <div class="nav-center">
+    <a href="/" style="color:#363636;">
+      <span style="font-size:3.5rem; font-weight:bold;">D</span>
+      <span style="font-size:3.5rem; font-weight:bold;">S</span>
+      <span class="icon is-large" style="margin-top:19px;">
+        <i class="fa fa-hand-lizard-o"></i>
+      </span>
+    </a>
+  </div>
+  <div class="nav-right is-hidden-mobile">
+    <a class="nav-item" href="https://twitter.com/dstevensio">
+      <span class="icon">
+        <i class="fa fa-twitter"></i>
+      </span>
+    </a>
+    <a class="nav-item" href="https://github.com/dstevensio">
+      <span class="icon">
+        <i class="fa fa-github"></i>
+      </span>
+    </a>
+    <a class="nav-item" href="https://medium.com/@dstevensio">
+      <span class="icon">
+        <i class="fa fa-medium"></i>
+      </span>
+    </a>
+    <a class="nav-item" href="http://linkedin.com/in/daveastevens">
+      <span class="icon">
+        <i class="fa fa-linkedin"></i>
+      </span>
+    </a>
+    <a class="nav-item" href="https://instagram.com/shakefon">
+      <span class="icon">
+        <i class="fa fa-instagram"></i>
+      </span>
+    </a>
+    <a class="nav-item" href="https://www.snapchat.com/add/shakefon">
+      <span class="icon">
+        <i class="fa fa-snapchat-ghost"></i>
+      </span>
+    </a>
+  </div>
+</nav>
+<div class="container is-fluid" style="margin: 0 20px;">
+{{ content }}
+</div>
+<div id="wrapper" style="height:30px;"></div>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <a href="https://twitter.com/dstevensio">
+          <span class="icon">
+            <i class="fa fa-twitter"></i>
+          </span>
+        </a>
+        <a href="https://github.com/dstevensio">
+          <span class="icon">
+            <i class="fa fa-github"></i>
+          </span>
+        </a>
+        <a href="https://medium.com/@dstevensio">
+          <span class="icon">
+            <i class="fa fa-medium"></i>
+          </span>
+        </a>
+        <a href="http://linkedin.com/in/daveastevens">
+          <span class="icon">
+            <i class="fa fa-linkedin"></i>
+          </span>
+        </a>
+        <a href="https://instagram.com/shakefon">
+          <span class="icon">
+            <i class="fa fa-instagram"></i>
+          </span>
+        </a>
+        <a href="https://www.snapchat.com/add/shakefon">
+          <span class="icon">
+            <i class="fa fa-snapchat-ghost"></i>
+          </span>
+        </a>
+      </p>
+      <p>
+        <a href="mailto:ds@dstevensio">ds@dstevens.io</a>
+      </p>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37398643-1']);
+  _gaq.push(['_setDomainName', 'dstvns.com']);
+  _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </body>
 </html>

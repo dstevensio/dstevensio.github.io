@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Filip Maj & Michael Brooks - Master the Command Line with Node.js
+category: JSConf US 2013
 ---
 
 patterns to follow emerged from concepts discovered while building tools

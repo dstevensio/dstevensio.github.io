@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Peter Flynn - Performance Tuning Secrets
+category: JSConf US 2013
 youtubeID: 480JL_WuMt0
 ---
 

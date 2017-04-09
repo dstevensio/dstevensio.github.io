@@ -1,6 +1,7 @@
 ---
 layout: post-sss
 title: Startup or Bare Minimum Security
+category: Bare Minimum Application Security
 tags: postlist
 ---
 I gave a presentation for some folks who were setting up side projects
@@ -86,7 +87,7 @@ but let's first cover some general concepts to bear in mind while launching
 something that is going to make you fabulously rich, or humanitarian of the
 century, or both.
 
-In other words - if you forget the entire content of this except for these core 
+In other words - if you forget the entire content of this except for these core
 concepts, at least you'll be better off than the majority of hot new startups
 (and a huge number of established, sprawling corporations that really should know better)
 
@@ -97,9 +98,9 @@ Because you're a cool startup, you're going to trust your users (customers,
 This trust will be bred through the open communication you'll have with them.
 They will feel like they know you and you will feel connected to them.
 
-However, there are bad people in the world. So trust your users/customers but 
+However, there are bad people in the world. So trust your users/customers but
 don't trust the input they are providing. **ANYTHING NOT HARD-CODED IN YOUR
-APP CANNOT BE TRUSTED AS SAFE**. This extends to values pulled from your 
+APP CANNOT BE TRUSTED AS SAFE**. This extends to values pulled from your
 database, your NoSQL store, whatever datastore you use.
 
 **DO**: Validate & Sanitize on the way in, Escape on the way out
@@ -111,11 +112,11 @@ database, your NoSQL store, whatever datastore you use.
 If you are handling your own user authentication, the submission of user
 credentials must always take place over SSL. There are freely available
 browser add-ons to sniff traffic on a network, so even rank amateurs can
-do man in the middle attacks to grab log in credentials. HTTPS protects 
+do man in the middle attacks to grab log in credentials. HTTPS protects
 you, and it's cheap and achievable.
 
 If you're submitting sensitive information (anything personally
-identifiable, anything payments-related, etc) it should be submitted 
+identifiable, anything payments-related, etc) it should be submitted
 over SSL without a doubt.
 
 **DO**: Send all sensitive/personally identifiable information over HTTPS not HTTP
@@ -145,7 +146,7 @@ those is unavailable or broken when a user tries to log in to your site.
 
 However, if you feel a Facebook, a Twitter or a Google, for instance,
 has a greater availability record than you expect to maintain and you
-don't consider having local user accounts essential, letting them take 
+don't consider having local user accounts essential, letting them take
 care of authentication and user credentials removes an area of risk for you.
 
 If you are accepting credit cards on your app, do you need the granular
@@ -172,7 +173,7 @@ Hurriedly backtracking, I will attach one caveat to this though.
 This does not absolve you of the need to abide by the other
 concepts previously mentioned. **DO NOT TRUST** data from a third
 party as safe. They will likely (if they're a reputable service)
-take care of sanitizing, escaping, validating, etc. But don't 
+take care of sanitizing, escaping, validating, etc. But don't
 leave it up to them. Validate the data is correct before displaying
 it. Escape it where necessary. Don't submit data to a third party
 over HTTP if the data is remotely sensitive. Don't let a Facebook

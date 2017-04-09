@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Selena Deckelmann - PLV8
+category: JSConf US 2013
 youtubeID: wn2SpeHhWVc
 ---
 

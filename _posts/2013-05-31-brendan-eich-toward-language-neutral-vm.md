@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Brendan Eich - Toward a language-neutral browser VM
+category: JSConf US 2013
 youtubeID: O83-d0t0Ldw
 ---
 

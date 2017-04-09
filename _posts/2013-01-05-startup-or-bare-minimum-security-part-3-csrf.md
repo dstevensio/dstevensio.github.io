@@ -1,6 +1,7 @@
 ---
 layout: post-sss
-title: Startup or Bare Minimum Security Part 3 - CSRF
+title: Cross Site Request Forgery (CSRF)
+category: Bare Minimum Application Security
 tags: postlist
 ---
 
@@ -45,7 +46,7 @@ Cool story bro.
 Unfortunately for you, this naughty hacker knows a few email addresses of
 folks who have accounts on Instaspam, due to public email addresses of
 bloggers who have been giving this hot new startup some coverage. He/she
-also knows about CSRF. NH sends an HTML email to those email addresses 
+also knows about CSRF. NH sends an HTML email to those email addresses
 which includes the following img tag:
 
 {% highlight html %}
@@ -71,7 +72,7 @@ the token expires and they request a new one. Same principle as before.
 
 A CSRF vulnerability gives an attacker the opportunity to impersonate your users.
 On the low end of the scale, this could mean your user has a poor or confusing
-experience on your app (information they entered deleted or altered, getting 
+experience on your app (information they entered deleted or altered, getting
 logged out mid-session, etc) or at the scarier end, allowing the loss of credit
 card data, personally identifiable information, personal data/content.
 

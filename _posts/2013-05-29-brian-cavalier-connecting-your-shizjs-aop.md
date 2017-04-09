@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Brian Cavalier - Connecting your shiz.js with AOP
+category: JSConf US 2013
 ---
 
 AOP = Aspect Oriented Programming

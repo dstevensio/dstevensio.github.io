@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: Felix Geisendorfer - tus.io - Squeezing Cats Through Tiny Mobile Tubes
+category: JSConf US 2013
 ---
 
 File uploads
@@ -18,10 +19,10 @@ Flash started being used because of progress indicators :(
 2008 - XHR Level 2
 (Ajax unable to do file uploads before this)
 
-2009 - file API 
+2009 - file API
 
 2013 - no resumability. Today file
-Sizes are huge. 
+Sizes are huge.
 
 How to resume http upload?
 Rfc 2616

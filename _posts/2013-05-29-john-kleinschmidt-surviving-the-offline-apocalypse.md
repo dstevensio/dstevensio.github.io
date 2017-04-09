@@ -1,6 +1,7 @@
 ---
 layout: post-talk-jsconf13
 title: John Kleinschmidt - Surviving the Offline Apocalypse
+category: JSConf US 2013
 youtubeID: Qg75x08Mtcs
 ---
 

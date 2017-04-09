@@ -1,6 +1,7 @@
 ---
 layout: post-sss
-title: Startup or Bare Minimum Security Part 5 - Spammers
+title: Spammers
+category: Bare Minimum Application Security
 tags: postlist
 ---
 
