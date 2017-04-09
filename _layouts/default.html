@@ -19,7 +19,7 @@
   {% if page.title == nil %}
   <meta property="og:description" content="{{ site.meta_description }}">
   {% else %}
-  <meta property="og:description" content="{{ page.title}} - {{ site.page_title }}">
+  <meta property="og:description" content="{{ page.title }} ({{ page.category }})">
   {% endif %}
 
   <meta name="twitter:card" content="summary_large_image">
@@ -35,7 +35,7 @@
   {% if page.title == nil %}
   <meta name="twitter:description" content="{{ site.meta_description }}">
   {% else %}
-  <meta name="twitter:description" content="{{ page.title}} - {{ site.page_title }}">
+  <meta name="twitter:description" content="{{ page.title}} ({{ page.category }})">
   {% endif %}
   <title>
     {% if page.title == nil %}
