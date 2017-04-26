@@ -13,15 +13,11 @@ layout: default
     </div>
   </div>
 </section>
-<div class="tile is-ancestor">
+<div class="container is-fluid">
 {% for post in site.posts %}
-  {% assign loopindex = forloop.index | modulo: 3 %}
-  {% if loopindex == 1 %}
-</div>
 <div class="tile is-ancestor">
-  {% endif %}
   <div class="tile is-parent">
-    <div class="tile is-child card">
+    <div class="tile is-child">
       <header class="card-header">
         <p class="card-header-title">
           {{post.category}}
