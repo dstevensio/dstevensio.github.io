@@ -15,25 +15,9 @@ layout: default
 </section>
 <div class="container is-fluid">
 {% for post in site.posts %}
-<div class="tile is-ancestor">
-  <div class="tile is-parent">
-    <div class="tile is-child">
-      <header class="card-header">
-        <p class="card-header-title">
-          {{post.category}}
-        </p>
-      </header>
-      <div class="card-content">
-        <div class="content">
-          <p class="title">
-            <a href="{{ post.url }}">{{post.title}}</a>
-          </p>
-          <p class="subtitle">
-            {{post.date | date_to_string}}
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="content">
+  <p class="title"><a href="{{ post.url }}">{{post.title}}</a></p>
+  <p class="subtitle">{{post.category}} | {{post.date | date_to_string}}</p>
+</div>
 {% endfor %}
 </div>
