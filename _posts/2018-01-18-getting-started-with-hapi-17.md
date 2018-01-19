@@ -10,7 +10,7 @@ entire codebase replaced callbacks with the newer language feature.
 This makes for some changes to how you configure your application. The intent of this post is to get you up and
 running as quickly as possible.
 
-##Installation
+## Installation
 
 ```
 npm i --save hapi
