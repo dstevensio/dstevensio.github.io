@@ -1,10 +1,10 @@
 highlighter: rouge
 permalink: '/:title'
 title: 'Dave Stevens'
-description: 'An Anglo-American Software Engineer in Las Vegas, NV. Web Engineering, JavaScript, nodeJS, hapi.js'
-meta_description: 'Dave Stevens is an Anglo-American Software Engineer in Las Vegas, NV. Web Engineering, JavaScript, nodeJS, hapi.js'
+description: 'A Software Engineer and Engineering Manager in Las Vegas, NV. Web Engineering, JavaScript, nodeJS, hapi.js'
+meta_description: 'Dave Stevens is a Software Engineer and Engineering Manager in Las Vegas, NV. Web Engineering, JavaScript, nodeJS, hapi.js'
 logo: 'http://dstevens.io/images/social.png'
-page_title: 'Dave Stevens: @dstevensio'
+page_title: 'Dave Stevens'
 base_url: 'http://dstevens.io'
 github: 'dstevensio'
 medium: '@dstevensio'
