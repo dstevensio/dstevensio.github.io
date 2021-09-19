@@ -43,3 +43,4 @@ div.post pre {margin:20px 0; font-size:1.2em;}
 div.post code {font-size:1.6em; word-wrap:break-word; line-height:1.5em;}
 div.post p code {font-size:1em; background:#eee; padding:3px 5px; border-radius:3px;}
 footer.global {font-size:1.6em; color:#555; padding:40px; border-top:1px solid #eee;}
+div.site-splash { min-height:600px; background: yellow; }
